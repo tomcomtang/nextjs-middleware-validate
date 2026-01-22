@@ -1,0 +1,46 @@
+{
+  "nextRoutes": [
+    {
+      "path": "/about-us",
+      "isStatic": true
+    },
+    {
+      "path": "/admin/dashboard",
+      "isStatic": true
+    },
+    {
+      "path": "/api/error"
+    },
+    {
+      "path": "/login",
+      "isStatic": true
+    },
+    {
+      "path": "/protected/dashboard",
+      "isStatic": true
+    },
+    {
+      "path": "/_app"
+    },
+    {
+      "path": "/_error"
+    },
+    {
+      "path": "/api/test"
+    },
+    {
+      "path": "/",
+      "isStatic": true
+    },
+    {
+      "path": "/_document"
+    },
+    {
+      "path": "/404",
+      "isStatic": true
+    },
+    {
+      "path": "/_next/image"
+    }
+  ]
+}

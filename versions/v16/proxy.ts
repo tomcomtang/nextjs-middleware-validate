@@ -14,9 +14,8 @@ import { userAgent } from 'next/server'
  * - 配置项重命名：skipMiddlewareUrlNormalize → skipProxyUrlNormalize
  */
 
-// 配置使用 Node.js runtime（v16 强制）
+// 配置（v16 中 Proxy 总是运行在 Node.js runtime，不需要显式声明 runtime）
 export const config = {
-  runtime: 'nodejs', // v16 强制使用 Node.js runtime
   matcher: [
     '/api/:path*',
     '/secure/:path*',

@@ -1,0 +1,35 @@
+{
+  "nextRoutes": [
+    {
+      "path": "/",
+      "isStatic": true
+    },
+    {
+      "path": "/_app"
+    },
+    {
+      "path": "/_document"
+    },
+    {
+      "path": "/_error"
+    },
+    {
+      "path": "/api/test"
+    },
+    {
+      "path": "/login",
+      "isStatic": true
+    },
+    {
+      "path": "/secure/dashboard",
+      "isStatic": true
+    },
+    {
+      "path": "/404",
+      "isStatic": true
+    },
+    {
+      "path": "/_next/image"
+    }
+  ]
+}
